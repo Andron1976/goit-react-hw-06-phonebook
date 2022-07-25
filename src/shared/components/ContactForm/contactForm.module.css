@@ -3,48 +3,47 @@
     width: 400px;
     
     padding: 20px 10px;
-    outline: 1px solid black;
+    
     
 
 }
 .form {
     display: flex;
     flex-direction: column;
+    width: 200px;
+    border: 2px solid rgb(10, 100, 10);
+    border-radius: 10px;
+    padding: 30px;
+    margin-left: 30px;
+    font-family: 'Roboto', sans-serif;
 }
 .label{
     display: flex;
     flex-direction: column;
     
-    font-weight: 400;
-    font-size: 20px;
+    margin-bottom: 15px;
+    color: rgb(100, 10, 10);
+    font-weight: 700;
 }
 .label:not(:last-child){
     margin-bottom: 15px;
 }
 .input{
-    width: 50%;
-    margin-top: 8px;
-    padding: 4px 0px;
-    padding-left: 4px;
-
-    font-size: 14px;
-
-    color: lightslategray;
-
-
-    border: 1px solid lightgray;
+    margin: 15px 0 15px 30px;
+    color: rgb(10, 100, 10);
     border-radius: 5px;
 }
 
 .button{
-    width: 50%;
-
-    padding: 4px;
-    border: 1px solid transparent;
     border-radius: 5px;
+    background-color: rgb(10, 100, 10);
+    color: #fff;
+    padding: 5px 10px;
+    transition: 300ms;
 
 }
 .button:hover{
-    background-color: rgb(80, 80, 80);
-    color: white;
+    
+    background-color: rgb(100, 10, 10);
+    color: #fff;
 }
